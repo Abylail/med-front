@@ -1,4 +1,4 @@
-Г<template>
+<template>
   <footer class="my-bottom-bar">
     <div class="my-bottom-bar__item"
          :class="{'selected': module.code === selectedModuleCode}"
@@ -43,8 +43,8 @@ export default {
   position: fixed;
   bottom: 0;
   height: 50px;
-  padding: 0 10px;
-  width: calc(100% - 20px);
+  padding: 0 $sz--hor-padding;
+  width: calc(100% - #{2*$sz--hor-padding});
   border-top: 1px solid $color--light-gray;
   display: grid;
   grid-template-columns:  repeat(5, 1fr);

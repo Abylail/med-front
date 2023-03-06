@@ -1,12 +1,15 @@
 <template>
   <div>
-
+    <my-header title="Личный профиль"/>
   </div>
 </template>
 
 <script>
+import MyHeader from "@/components/common/layout/myHeader.vue";
+
 export default {
-  name: "index"
+  name: "index",
+  components: {MyHeader}
 }
 </script>
 
