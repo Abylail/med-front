@@ -43,8 +43,7 @@ export default {
   position: fixed;
   bottom: 0;
   height: 50px;
-  padding: 0 $sz--hor-padding;
-  width: calc(100% - #{2*$sz--hor-padding});
+  width: 100%;
   border-top: 1px solid $color--light-gray;
   display: grid;
   grid-template-columns:  repeat(5, 1fr);
